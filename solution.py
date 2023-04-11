@@ -16,4 +16,4 @@ def solution(x_success: int,
     
     z = np.abs((p1 - p2) / np.sqrt(p * (1 - p) * (1/n1 + 1/n2)))
     
-    return z > 2.2
+    return z > 2.5
