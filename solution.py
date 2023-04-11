@@ -14,6 +14,6 @@ def solution(x_success: int,
     n1 = x_cnt
     n2 = y_cnt
     
-    z = abs((p1 - p2) / np.sqrt(p * (1 - p) * (1/n1 + 1/n2)))
+    z = np.abs((p1 - p2) / np.sqrt(p * (1 - p) * (1/n1 + 1/n2)))
     
     return z > 2.1701
